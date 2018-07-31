@@ -1,347 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Vinay Rayini</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-  </head>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-  <body id="page-top">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Vinay Rayini</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Welcome</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
+        <!-- /.container -->
     </nav>
 
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <img class="img-fluid" src="img/profile.png" alt="">
-        <div class="intro-text">
-          <span class="name">Vinay Rayini</span>
-          <hr class="star-light">
-          <span class="skills">University of Texas at Austin Student - Software Developer</span>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Vinay Rayini</h1>
+                        <p class="intro-text">University of Texas at Austin Student<br>Software Developer</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-      <div class="container">
-        <h2 class="text-center">Experience</h2>
-        <hr class="star-primary">
-        <div class="row">
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/godaddy.png" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/exxon.png" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/utcs.png" alt="">
-            </a>
-          </div>
-          
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="success" id="resume">
-      <div class="container">
-        <h2 class="text-center">Resume</h2>
-        <hr class="star-light">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <a href="https://drive.google.com/file/d/0B-zflHsny8oceUkxWVZwU0VKQ2s/view?usp=sharing" target="https://drive.google.com/file/d/0B-zflHsny8oceUkxWVZwU0VKQ2s/view?usp=sharing" class="btn btn-lg btn-outline">
-              <i class="fa fa-download"></i>
-              Check out my resume!
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- About Section -->
-    <section id="about">
-      <div class="container">
-        <h2 class="text-center">About</h2>
-        <hr class="star-primary">
+    <section id="about" class="container content-section text-center">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p>I am a rising senior majoring in Computer Science at The University of Texas at Austin with interests in back-end development, API development, web development, big data, and mobile development.</p>
-          </div>
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Me</h2>
+                <p>I am a rising senior majoring in Computer Science at The University of Texas at Austin with interests in back-end development, API development, web development, and mobile development. I am a passionate developer looking for an opportunity to acquire experience in a company that would be willing to help me grow.</p>
+            </div>
         </div>
-      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Resume</h2>
+                    <p></p>
+                    <p><a href="https://drive.google.com/file/d/0B-zflHsny8oceUkxWVZwU0VKQ2s/view?usp=sharing" target='https://drive.google.com/file/d/0B-zflHsny8oceUkxWVZwU0VKQ2s/view?usp=sharing' 
+                    title="Click here to open my resume" class="btn btn-default btn-lg">
+                    Check out my resume!</a></p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="success" id="contact">
-      <div class="container">
-        <h2 class="text-center">Contact Me</h2>
-        <hr class="star-light">
+    <section id="contact" class="container content-section text-center">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <p class="text-center">Feel free to email me to provide some feedback, give me suggestions, or to just say hello!</p>
-            <div class="col-lg-8 mx-auto text-center">
-            <a href="mailto:rayiniv@hotmail.com" class="btn btn-lg btn-outline">
-              <i class="fa fa-envelope"></i>
-              Click to email me!
-            </a>
-          </div>
-          </div>
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Me</h2>
+                <p>Feel free to email me to provide some feedback, give me suggestions, or to just say hello!</p>
+                <p><a href="mailto:rayiniv@hotmail.com">Click to email me</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://www.linkedin.com/pub/vinay-rayini/ba/655/157" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/rayiniv" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </section>
+
+    <!-- Map Section -->
+<!--     <div id="map"></div> -->
 
     <!-- Footer -->
-    <footer class="text-center">
-      <div class="footer-above">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col col-md-12 text-center">
-              <h3>Around the Web</h3>
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/vinay-rayini" class="btn btn-lg btn-outline"><i class="fa fa-linkedin fa-fw"></i> <span>LinkedIn</span></a>
-                </li>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Vinay Rayini 2015</p>
+        </div>
 
-                <li class="list-inline-item">
-                <a href="https://github.com/rayiniv" class="btn btn-lg btn-outline">
-                <i class="fa fa-fw fa-github"></i> <span>Github</span></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-below">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              Copyright &copy; Vinay Rayini 2017
-            </div>
-          </div>
-        </div>
-      </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top d-lg-none">
-      <a class="btn btn-primary js-scroll-trigger" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h1>GoDaddy</h2>
-                  <h4>Software Engineering Intern</h4>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="img/portfolio/godaddy.png" alt="">
-                  <p> - Worked on the Customer Insights team to develop a robust Apache Beam
-                      based pipeline for managing and drawing insights from customer data</p>
-                  <p> - Helped develop an architecture for storing and modeling customer activity data
-                      over time through a large scale asynchronous Vert.x based RESTful API service</p>
-                  <p> - Developed an open source RAML based REST API code generation framework
-                      complete with plug-in capabilities and multi-language support to allow
-                      development of more pragmatic RESTful API services</p>
-                  <p> - Worked with a variety of technologies including Java, Vert.x, Apache Beam,
-                      Google Cloud Platform, Kubernetes, RAML, Swagger, and Apache Cassandra</p>
-                  <ul class="list-inline item-details">
-                    <li>Start Date:
-                      <strong>
-                        May 2017
-                      </strong>
-                    </li>
-                    <li>End Date:
-                      <strong>
-                        August 2017
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h1>ExxonMobil</h2>
-                  <h4>Software Engineering Intern</h4>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="img/portfolio/exxon.png" alt="">
-                  <p> - Worked on the Architecture & Technology team to design/develop a dynamic
-                      SharePoint based Kanban Board web application to optimize internal work flow</p>
-                  <p> - Helped with the team’s transition to an Agile Methodology workflow, increased
-                      productivity, and enabled managers to more effectively plan projects</p>
-                  <p> - Developed support for Agile methodology features like WIP limits, dynamic
-                      workflow mapping, work status visualization, and managertools</p>
-                  <p> - Implemented with AngularJS, HTML, CSS, and SharePoint REST API</p>
-                  <ul class="list-inline item-details">
-                    <li>Start Date:
-                      <strong>
-                        May 2016
-                      </strong>
-                    </li>
-                    <li>End Date:
-                      <strong>
-                        August 2016
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h1>The University of Texas at Austin Department of Computer Science</h2>
-                  <h4>Tutor</h4>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="img/portfolio/utcs.png" alt="">
-                  <p> Taught students project design and testing fundamentals to help them build
-                      higher quality projects</p>
-                  <ul class="list-inline item-details">
-                    <li>Start Date:
-                      <strong>
-                        September 2015
-                      </strong>
-                    </li>
-                    <li>End Date:
-                      <strong>
-                        December 2015
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/AIzaSyAljjHV7FUlVjyDW9QW1gusEplAwywYpRs"></script> -->
 
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
 
-  </body>
+</body>
 
 </html>
